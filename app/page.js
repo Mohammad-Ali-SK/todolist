@@ -45,7 +45,7 @@ const page = () => {
    <>
    <h1 className='bg-black text-center p-5 text-white font-bold text-5xl'>My TodoList</h1>
 
-   <form action="" className='items-center flex' onSubmit={submitHandler}>
+   <form onSubmit={submitHandler}>
      
   <input type='text' placeholder='Enter title' className='border-2 p-3 m-3 text-1xl border-black' value={title} onChange={(e) => {
     settitle(e.target.value)
